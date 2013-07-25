@@ -7,7 +7,7 @@ The simple script converts .xls/.xlsx file to csv, properly converting by the gi
 ## Usage
 `perl xls2csv --excel data.xls|.xlsx --sheet Sheet1`
 
-### Requred arguments
+### Required arguments
 * `-e,  --excel`     Given a .xls or .xlsx file.       [Required]
 * `-s,  --sheet`     Given a sheet name of the file.   [Required]
 
@@ -15,3 +15,9 @@ The simple script converts .xls/.xlsx file to csv, properly converting by the gi
 * `-h,  --help `     Show help messages.
 
 
+## Contributing
+* Fork it
+* Create your feature branch (git checkout -b my-new-feature)
+* Commit your changes (git commit -am 'Add some feature')
+* Push to the branch (git push origin my-new-feature)
+* Create new Pull Request
