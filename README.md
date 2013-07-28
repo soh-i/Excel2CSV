@@ -9,7 +9,9 @@ The simple script converts .xls/.xlsx file to csv, properly converting by the gi
 * `cpanm Spreadsheet::ParseExcel Spreadsheet::XLSX`
 
 ## Usage
-`perl xls2csv --excel data.xls|.xlsx --sheet Sheet1`
+* `./xls2csv --excel data.xls --sheet Sheet1`
+* `./xls2csv --excel accounts.xlsx --sheet Name1`
+
 
 ### Required arguments
 * `-e,  --excel`     Given a .xls or .xlsx file.       [Required]
